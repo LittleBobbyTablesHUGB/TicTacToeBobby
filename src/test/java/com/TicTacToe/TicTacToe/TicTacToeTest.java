@@ -1,10 +1,10 @@
-package com.TicTacToe.helloworld;
+package com.TicTacToe.TicTacToe;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class WorldTest {
+public class TicTacToeTest {
 
     @Test
     public void greetResultsInHello() {

@@ -1,4 +1,4 @@
-package com.TicTacToe.helloworld;
+package com.TicTacToe.TicTacToe;
 
 public class World {
 

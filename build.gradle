@@ -11,7 +11,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "com.TicTacToe.helloworld.HelloWorld"
+mainClassName = "com.TicTacToe.TicTacToe.TicTacToe"
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -35,6 +35,6 @@ dependencies {
 //In this section is the jar manifest to make the .jar file executable
 jar {
 	manifest {
-	attributes("Main-Class": "com.TicTacToe.helloworld.HelloWorld")
+	attributes("Main-Class": "com.TicTacToe.TicTacToe.TicTacToe")
 	}
 }
