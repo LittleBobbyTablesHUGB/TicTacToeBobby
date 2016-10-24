@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir tmp
+gradle installDist
+cp -r build/install/hugb_hello_world/* tmp
+./tmp/bin/hugb_hello_world
+rm -r tmp
